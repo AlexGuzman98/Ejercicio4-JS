@@ -93,6 +93,8 @@ const alertaParqueosLlenos = (espaciosLibres,celdasVacias) => {
     espaciosLibres.style.color = 'tomato';
   }else{
     espaciosLibres.innerHTML = `Tienes ${celdasVacias.length} parqueos libres`;
+    boton.disabled = false
+    input.disabled = false
   }
 }
 
